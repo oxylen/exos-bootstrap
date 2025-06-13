@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss\style.css">
+</head>
+<body>
+    <!--header///////////////////////////////////////////////////////////////////-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-3 border-dark row justify-content-center p-0">
+            <div class="container-fluid row col-9 justify-content-center">
+                <img src="img\logo.png" alt="logo" class="col-1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center col-6" id="navbarNavAltMarkup">
+                    <div class="navbar-nav row w-100 justify-content-center">
+                        <a class="nav-link active col-2 fs-3" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link col-2 fs-3" href="#">PortFolio</a>
+                        <a class="nav-link col-2 fs-3" href="#">Blog</a>
+                        <a class="nav-link col-2 fs-3" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="row">
+        <!--aside//////////////////////////////////////////////////////////////////-->
+        <aside class="col-3 p-4">
+            <h2>Commentaire Client 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos harum libero dolorum aut nulla voluptates temporibus, eos, quia accusamus, iste ad facere saepe! Dolorum, quidem. Itaque excepturi ipsa numquam.</p>
+            <h2>Commentaire Client 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos harum libero dolorum aut nulla voluptates temporibus, eos, quia accusamus, iste ad facere saepe! Dolorum, quidem. Itaque excepturi ipsa numquam.</p>
+            <h2>Commentaire Client 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dignissimos harum libero dolorum aut nulla voluptates temporibus, eos, quia accusamus, iste ad facere saepe! Dolorum, quidem. Itaque excepturi ipsa numquam.</p>
+        </aside>
+        <section class="col-9 mainPage">
+            <!--présentation/////////////////////////////////////////////////////-->
+            <article class="mainPage__presentation row py-3">
+                <h1>Titre de Super Page</h1>
+                <img src="img\pexels-eberhard-grossgasteiger-640809.jpg" alt="montagnes" class="col-7 ms-5 my-3">
+                <div class="col-4 d-flex align-items-center mainPage__text">
+                    <p class="bg-primary px-4 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto praesentium quaerat quisquam. Eius reiciendis molestiae quasi quos voluptatem odit? Voluptates, laudantium, eum adipisci quis optio minus labore vero dolor repellat ullam doloribus nemo. Enim autem mollitia libero deleniti nihil, voluptates saepe delectus atque? Culpa provident necessitatibus voluptas at delectus aut?</p>
+                </div>
+            </article>
+            <!--portfolio////////////////////////////////////////////////////////-->
+            <article class="py-3">
+                <h2>Mon Portfolio</h2>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <!--partie visible carousel-->
+                        <div class="carousel-item active row d-flex">
+                            <div class="col-4">
+                                <h2>Mon oeuvre 1</h2>
+                                <img src="img\oeuvre-1.jpg" class="d-block w-100" alt="restaurant">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum veritatis vero soluta libero sit laboriosam hic quasi! Magni nesciunt, eos ipsum illo provident quaerat dolorum ipsa a ab assumenda qui.</p>
+                            </div>
+                            <div class="col-4">
+                                <h2>Mon oeuvre 2</h2>
+                                <img src="img\oeuvre-2.jpg" class="d-block w-100" alt="balcon">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos impedit maiores beatae minima eius natus facilis? Et iste repellendus, eos deleniti porro hic veniam vel eius ipsa voluptate vero asperiores!</p>
+                            </div>
+                            <div class="col-4">
+                                <h2>Mon oeuvre 3</h2>
+                                <img src="img\oeuvre-3.jpg" class="d-block w-100" alt="personne dans une rue">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est? Quis, dolorem. Nulla vero at expedita distinctio sint tenetur modi accusantium corrupti a maxime error asperiores mollitia, blanditiis molestias eos!</p>
+                            </div>
+                        </div>
+                        <!--partie invisible carousel-->
+                        <div class="carousel-item row d-flex">
+                            <div class="col-4">
+                                <h2>Mon oeuvre 4</h2>
+                                <img src="img\oeuvre-4.jpg" class="d-block w-100" alt="personne dans les montagnes">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia aperiam dignissimos vero beatae nobis inventore ipsam aliquam autem earum tempora. Doloribus necessitatibus magnam sunt nisi! Officia ipsum porro dolorum consequuntur.</p>
+                            </div>
+                            <div class="col-4">
+                                <h2>Mon oeuvre 5</h2>
+                                <img src="img\oeuvre-5.jpg" class="d-block w-100" alt="macarons">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero dolor, tenetur reprehenderit deleniti illum vitae cupiditate veniam nostrum, autem quisquam voluptatibus repellat corrupti obcaecati ullam. Veniam mollitia praesentium itaque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!--footer////////////////////////////////////////////////////////////////////-->
+    <footer class="row border-top border-dark border-3 row justify-content-around">
+        <img src="img\pexels-mihis-alex-21014.jpg" alt="map" class="col-3">
+        <form class="col-3">
+            <div>
+                <label for="exampleInputName" class="form-label mb-0 mt-2">Nom : </label>
+                <input type="text" class="form-control border-2 border-dark" id="exampleInputName">
+            </div>
+            <div>
+                <label for="exampleInputFirstName" class="form-label mb-0">Prénom : </label>
+                <input type="text" class="form-control border-2 border-dark" id="exampleInputFirstName">
+            </div>
+            <div>
+                <label for="exampleInputEmail" class="form-label mb-0">Mail : </label>
+                <input type="email" class="form-control border-2 border-dark" id="exampleInputEmail">
+            </div>
+            <div class="mb-1">
+                <label for="exampleInputPassword" class="form-label mb-0">Mot de passe : </label>
+                <input type="password" class="form-control border-2 border-dark" id="exampleInputPassword">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+        </form>
+    </footer>
+
+    <!--javascript////////////////////////////////////////////////////////////-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
